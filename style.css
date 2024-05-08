@@ -69,15 +69,10 @@ nav .line{
     z-index: 99;
 }
 
-nav .second-ul{
-    position: sticky;
-    top: 0;
-}
 
-/* .second-ul li:hover a{
-    color: #a3c962;
-    transition: all .5s;
-} */
+.hideMobile:hover a{
+color: black;
+}
 
 @media screen and (max-width:992px) {
     .menu-button {
