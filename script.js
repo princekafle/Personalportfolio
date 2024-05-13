@@ -13,3 +13,5 @@ const hidenavbar=()=> {
     const line =  document.querySelector('.line')
     line.style.display='none'
 }
+
+//for typing text effect on homepage
