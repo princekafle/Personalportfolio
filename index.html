@@ -21,7 +21,7 @@
 <body>
    <header>
         <nav class="d-flex flex-wrap justify-content-between align-items-center position-relative  p-3">
-            <h2 class="text-primary fw-bold mx-3 logo ">PrinceK</h2>
+            <h2 class="text-primary fw-bold ms-5 logo ">PrinceK</h2>
             <div class="line"></div>
             <!-- yo ul chai medium ra small size ko lagi -->
             <ul class="list-unstyled sidebar">
@@ -51,14 +51,30 @@
             </ul>
         </nav>
 <!-- this is nav bar  -->
-        <main>
-<div class="container">
-    <h1> <span class="auto-type"></span> I'm Coding</h1>
+    
+<div class="main">
+    <div class="left">
+        <h3>Hi, Myself</h3>
+        <h1>Prince Kafle</h1>
+
+    <h2>I'm <span class="auto-type"></span></h2>
+<p>I specialize in creating responsive and user-friendly websites that deliver an exceptional browsing experience. Feel free to reach out to me, and let's start building something amazing together!</p>
+
+    <div class="left-bottom">
+        <div><a href=""><i class="fab fa-facebook-f" style="margin-left: 5px;"></i></i></a></div>
+        <div><a href=""><i class="fab fa-instagram"></i></a></div>
+        <div><a href=""><i class="fab fa-linkedin-in"></i></a></div>
+        <div><a href=""><i class="fab fa-github"></i></a></div>
+    </div>
 </div>
-        </main>
 
+<div class="right">
 
+</div>
+</div>
     </header>
+
+    
 
 
 <script src="script.js"></script>
@@ -67,6 +83,18 @@
 
 <!-- // for typing effect -->
  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> 
+
+ <script>
+   
+    var typed = new Typed('.auto-type', {
+        strings: ["Frontend Developer", "Backend Developer", "Graphic Designer"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+    });
+
+</script>
+
 </body>
 
 </html>
