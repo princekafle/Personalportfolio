@@ -9,13 +9,15 @@ body {
 }
 
 header {
-    background-image: url(image/a.jpg);
-    /* background-color: rgb(112, 18, 18); */
-    height: 1000px;
+   
+    /* background-color: rgb(255, 255, 255); */
+    height: 600px;
+    background: url(image/bg.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:left;
     background-size: cover;
     overflow-x: hidden;
+    overflow-y: hidden;
     
 }
 
@@ -159,7 +161,7 @@ width: 50%;
     border-radius: 50%;
     border: 1px solid rgb(0, 151, 119);
     display: inline-block;
-    margin-top: 60px;
+    margin-top: 40px;
     /* background-color: blue; */
     position: relative;
     padding-top: 10px;
@@ -181,3 +183,37 @@ transition: all .5s;
     overflow: hidden;
     
     }
+
+    .main right{
+        width: 50%;
+    }
+
+/* .mainright  .images{
+height: 350px;
+width: 350px;
+/* background-color: yellowgreen; */
+/*
+position: relative;
+top: 100px;
+left: 120px;
+background-color: rgba(255, 255, 0, 0.8);
+border-top-left-radius: 100px;
+border-bottom-right-radius: 150px;
+border-top-right-radius: 100px;
+border-bottom-left-radius: 100px;
+box-shadow: 5px 10px 15px rgb(60, 153, 235);
+
+*/
+
+   
+.mainright img{
+    height: 520px;
+    width: 520px;
+margin-top: 5px;
+    /* box-shadow: 10px 20px 15px rgba(0,0,0,0.5); */
+    /* filter:  drop-shadow(30px 30px 4px #4444dd); */
+ 
+ 
+}
+
+
