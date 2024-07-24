@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    font-family: playfair display;
 }
 
 header {
@@ -20,6 +21,7 @@ header {
     overflow-y: hidden;
     
 }
+
 
 nav {
 font-family: playfair display;
@@ -56,16 +58,17 @@ font-family: playfair display;
     
 }
 .hideMobile a{
-    color: grey;
+    color: #000000;
 }
 .hideMobile:hover a{
-    color: blueviolet;
+    color: rgb(57, 26, 170);;
 }
 
 .sidebar  .first-list {
   padding-bottom: 14px;
     
 }
+
 nav h2{
     z-index: 99;
 }
@@ -216,4 +219,143 @@ margin-top: 5px;
  
 }
 
+.service{
+   
+    background: url(image/bg.jpg);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
 
+.service h2{
+    color: rgb(57, 26, 170);
+    font-size : 45px;
+}
+.service .one {
+    padding: 20px;
+    /* height:350px;
+    /*width:350px; */  
+}
+.service .one:hover {
+    cursor: pointer;
+    border: 2px solid rgb(57, 26, 170);
+    border-radius:16px; 
+    transform: scale(1.05);
+    overflow:hidden; 
+    
+}
+
+
+.service .one i{
+    color:rgb(57, 26, 170);
+    font-size:38px;
+    padding-left: 100px;
+    text-align:center;
+}
+.service .one h3{
+    font-size:26px;
+    padding:5px;
+    text-align:center;
+}
+.service .one p{
+    font-size: 18px;
+    text-align:center;
+    
+}
+@media only screen and (max-width: 575px)
+{
+.service{
+    height:1200px;
+    
+}
+.service i{
+    margin-left: 60px;
+}
+.project .card .btn{
+        margin-left:155px;
+    }
+
+
+}
+
+@media only screen and (min-width: 576px)and (max-width:767px){
+
+    .service{
+        height:900px;
+    }
+    .service .one i{
+        margin-left: 0px;
+        
+    }
+    .project .card .btn{
+        margin-left:210px;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px)and (max-width: 991px){
+    .service{
+        height:800px;
+    }
+    .service .one i{
+        margin-left: 80px;
+        text-align:center;
+    }
+    .project .col .card{
+        
+    }
+    .project .col .btn{
+        
+        margin-left: 70px;
+        padding:0;
+
+       
+        
+        
+    }
+
+
+
+}
+
+@media only screen and (min-width: 992px){
+    .service{
+        height:600px;
+    }
+    .project .col .btn{
+        margin-left: 150px;
+        width:auto;
+    }
+   
+    
+}
+
+.project{
+    background: url(image/bg.jpg);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: auto;
+
+}
+
+.project h2{
+    color: rgb(57, 26, 170);
+    font-size : 45px;
+}
+
+
+.project .col .card{
+    background: rgba(236,239,241,255);
+    border-radius:20px;
+}
+
+.project .col .card h5{
+color:rgb(57, 26, 170);
+}
